@@ -1,0 +1,58 @@
+form{
+    margin:200px;
+    border:none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.comment{
+    font-size: 20px;
+    font-weight: bold;
+}
+label{
+    width:100%;
+    margin: 20px 0px;
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+input[type="text"]{
+    width:90%;
+    border:none;
+    padding: 15px 10px;
+}
+input[type="submit"]{
+    width:10%;
+    background-color: cornflowerblue;
+    color:white;
+    border: none;
+}
+.name{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.time{
+    color:rgba(0,0,0,0.5);
+    font-size: 13px;
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.2);
+    margin : 10px 0px;
+    width:130px;
+}
+.recommend{
+    display: flex;
+    justify-content: end;
+}
+.recommend button{
+    background-color: white;
+    color:rgba(0,0,0,0.5);
+    border:1px solid rgba(0,0,0,0.2);
+    width:35px;
+    height: 22px;
+    padding: 0px;
+    margin-right: 10px;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
